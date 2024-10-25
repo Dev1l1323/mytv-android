@@ -7,18 +7,18 @@ object Constants {
     /**
      * 应用 标题
      */
-    const val APP_TITLE = "我的电视"
+    const val APP_TITLE = "My TV"
 
     /**
      * 应用 代码仓库
      */
-    const val APP_REPO = "https://github.com/yaoxieyoulei/mytv-android"
+    const val APP_REPO = "https://github.com/Dev1l1323/mytv-android"
 
     /**
      * IPTV源地址
      */
     const val IPTV_SOURCE_URL =
-        "https://mirror.ghproxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u"
+        "http://10.10.10.251:1003/tvlive.m3u"
 
     /**
      * IPTV源缓存时间（毫秒）
@@ -28,7 +28,7 @@ object Constants {
     /**
      * 节目单XML地址
      */
-    const val EPG_XML_URL = "http://epg.51zmt.top:8000/e.xml.gz"
+    const val EPG_XML_URL = "http://10.10.10.251:1003/HNDXEPG/IPTV-hndx.xml.gz"
 
     /**
      * 节目单刷新时间阈值（小时）
@@ -59,7 +59,7 @@ object Constants {
     /**
      * 播放器 userAgent
      */
-    const val VIDEO_PLAYER_USER_AGENT = "ExoPlayer"
+    const val VIDEO_PLAYER_USER_AGENT = "IJKPlayer"
 
     /**
      * 日志历史最大保留条数
